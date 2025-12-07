@@ -1,13 +1,34 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import HeroSection from "@/components/landing/HeroSection";
+import IntroSection from "@/components/landing/IntroSection";
+import PainPointsSection from "@/components/landing/PainPointsSection";
+import FailedAttemptsSection from "@/components/landing/FailedAttemptsSection";
+import DiscoverySection from "@/components/landing/DiscoverySection";
+import SolutionSection from "@/components/landing/SolutionSection";
+import TestimonialsSection from "@/components/landing/TestimonialsSection";
+import KnowledgeGapSection from "@/components/landing/KnowledgeGapSection";
+import WhatYouGetSection from "@/components/landing/WhatYouGetSection";
+import BeforeAfterSection from "@/components/landing/BeforeAfterSection";
+import ModulesSection from "@/components/landing/ModulesSection";
+import PricingSection from "@/components/landing/PricingSection";
+import FooterSection from "@/components/landing/FooterSection";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
-    </div>
+    <main className="font-body">
+      <HeroSection />
+      <IntroSection />
+      <PainPointsSection />
+      <FailedAttemptsSection />
+      <DiscoverySection />
+      <SolutionSection />
+      <TestimonialsSection />
+      <KnowledgeGapSection />
+      <WhatYouGetSection />
+      <BeforeAfterSection />
+      <ModulesSection />
+      <PricingSection />
+      <FooterSection />
+    </main>
   );
 };
 
